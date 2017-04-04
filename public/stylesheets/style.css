@@ -6,3 +6,19 @@ body {
 a {
   color: #00B7FF;
 }
+
+.my-content {
+  margin: 0 auto;
+  border: 1px solid #DDD;
+  min-height: 100%;
+  padding: 25px;
+}
+
+/* @partials: header, footer */
+footer {
+  width: inherit;
+  height: 50px;
+  border: 1px solid #DDD;
+   padding: 5px;
+}
+

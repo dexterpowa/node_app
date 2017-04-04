@@ -4,13 +4,14 @@
         <title>{{ title }}</title>
         <link rel="stylesheet" href="stylesheets/style.css"/>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    </head>
-    <body>
-        {{> header}}
-        {{{ body}}}
-        {{> footer }}
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/cad4119b33.js"></script>
         <script src="javascripts/setText.js"></script>
+    </head>
+    <body>
+        {{> header }}
+        <div class="my-content">{{{ body }}}</div>
+        {{> footer }}
     </body>    
 </html>

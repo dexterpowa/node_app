@@ -7,10 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/', function(req, res, next) {
-  res.render('/error', { 
-    title: 'Error page',
-    layout: 'error'
- });
+  res.render('error', { title: 'Error page' });
 });
 
 module.exports = router;
