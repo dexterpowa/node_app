@@ -7,8 +7,9 @@ a {
   color: #00B7FF;
 }
 
+/* @content */
 .my-content {
-  margin: 0 auto;
+  margin: 25px 0 25px 0;
   border: 1px solid #DDD;
   min-height: 100%;
   padding: 25px;
@@ -16,9 +17,16 @@ a {
 
 /* @partials: header, footer */
 footer {
-  width: inherit;
   height: 50px;
-  border: 1px solid #DDD;
-   padding: 5px;
+  border: 1px solid #45484d;
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100% !important;
+  background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%);
 }
 
+.navbar-inverse {
+  background: -webkit-linear-gradient(top, #000000 0%,#45484d 100%);
+}
