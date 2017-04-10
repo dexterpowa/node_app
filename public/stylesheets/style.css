@@ -1,3 +1,4 @@
+/* @body: background, defaults */
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -6,10 +7,6 @@ body {
 html body {
   background: url('../images/light-pattern.jpg');
   z-index: 0;
-}
-
-a {
-  color: #00B7FF;
 }
 
 /* @content */
@@ -37,4 +34,9 @@ footer {
 
 .navbar-inverse {
   background: -webkit-linear-gradient(top, #000000 0%,#45484d 100%);
+}
+
+/* @links */
+a {
+  color: #00B7FF;
 }
