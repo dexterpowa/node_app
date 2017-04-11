@@ -10,3 +10,9 @@
 
     npm install express-generator -g
     express --'stuff' 'projectname'
+
+### GIT ###
+
+# push to remote branch
+
+    git push -u origin master (?)

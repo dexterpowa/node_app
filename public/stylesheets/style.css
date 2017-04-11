@@ -1,6 +1,6 @@
 /* @body: background, defaults */
 body {
-  padding: 50px;
+  padding: 50px 100px 50px 100px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -18,6 +18,11 @@ html body {
   z-index: 1;
   background: #FFF;
   box-shadow: 0 0 10px #45484d;
+}
+
+#logo-js {
+  height: 245px;
+  width: 150px;
 }
 
 /* @partials: header, footer */
