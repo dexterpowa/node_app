@@ -5,7 +5,8 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('tutorial', { 
     title: 'JS tutorial',
-    text: 'It will be some JS code here.'
+    text: 'Methods',
+    label: 'window.screen'
  });
 });
 
