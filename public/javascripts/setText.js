@@ -10,7 +10,7 @@ $("#btn-get-size").click(function(){
 
 function setText() {
   var a = 'new text has been set!';
-  document.getElementById('text').innerHTML = a;
+  document.getElementById('text').innerHTML = a.length;
 }
 
 function resetText() {
@@ -25,5 +25,4 @@ function resize() {
   var obj = document.getElementById("size");
 
   obj.innerHTML = "Height: " + screenHeight + "<br>Width: " + screenWidth;
-
 }

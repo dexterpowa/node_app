@@ -3,10 +3,12 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.render('tutorial', { 
+  res.render('tutorial', {
     title: 'JS tutorial',
     text: 'Methods',
-    label: 'window.screen'
+    label: 'window.screen',
+    subtitle1: 'Javascript Fundamentals',
+    part: '2.9'
  });
 });
 

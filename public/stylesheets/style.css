@@ -1,7 +1,7 @@
-/* @imports: google fonts */
+/* @IMPORTS: google fonts */
 @import url('https://fonts.googleapis.com/css?family=Raleway|Inknut+Antiqua|Josefin+Sans');
 
-/* @body: background, defaults */
+/* @BODY: background, defaults */
 body {
   padding: 50px 100px 50px 100px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -11,7 +11,7 @@ html body {
   z-index: 0;
 }
 
-/* @font types: header, footer, content, titles*/
+/* @FONT TYPES: header, footer, content, titles*/
 .page-title, footer, header, span.label.label-default {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
@@ -31,7 +31,7 @@ h3#section-title {
   font-size: 18px;
 }
 
-/* @media: images,links,embed */
+/* @MEDIA: images,links,embed,labels */
 a {
   color: #00B7FF;
 }
@@ -48,8 +48,20 @@ a {
   height: 35%;
   width: 35%;
 }
+.my-code {
+  padding: 5px;
+  border: 1px solid #DDD;
+  color: #009f00;
+}
+span.label.label-default {
+  position: relative;
+  top: -1px;
+}
+span.label.label-default, code, .my-code {
+  margin: 0 5px;
+}
 
-/* @content */
+/* @CONTENT */
 #my-content {
   margin: 25px 0 25px 0;
   border: 1px solid #DDD;
@@ -68,10 +80,8 @@ a {
  top: 0;
  margin: 0 !important; 
 }
-span.label.label-default {
-  margin: 0 5px;
-  position: relative;
-  top: -1px;
+.col-xs-12 .col-sm-12 .col-md-12 .col-lg-12 {
+  text-align: justify;
 }
 /*#my-section {
   border: 1px solid #DDD;
