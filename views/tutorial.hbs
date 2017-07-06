@@ -19,11 +19,19 @@
           <h3 class="panel-title" id="section-title">{{ text }}</h3>
         </div>
         <div class="panel-body" id="panel-content">
-          <div class="col-md-2">
+          <div class="col-md-6">
+            <div class="row">
+              <p><code>-</code>|<i class="fa fa-cogs" data-toggle="tooltip" aria-hidden="true"></i></p>
+            </div>
             <div class="row">
               <p>Using the<span class="label label-default">{{ label }}</span>method.</p>
               <button type="button" class="btn btn-primary" id="btn-get-size" onclick=resize()>Get size</button>
               <p id="size"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <pre class="my-pre">my pre goes here</pre>
             </div>
           </div>
         </div>

@@ -125,3 +125,6 @@ footer {
 .navbar-inverse {
   background: -webkit-linear-gradient(top, #000000 0%,#45484d 100%);
 }
+.my-pre {
+  padding: 15px;
+}
