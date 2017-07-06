@@ -10,8 +10,10 @@ router.get('/', function(req, res, next) {
     label: 'window.screen',
     subtitle1: 'Javascript Fundamentals',
     subtitle2: 'Conditional operators: if, \'?\'',
+    subtitle3: 'Logical operators',
     part1: '2.9',
-    part2: '2.10'
+    part2: '2.10',
+    part3: '2.11'
  });
 });
 
