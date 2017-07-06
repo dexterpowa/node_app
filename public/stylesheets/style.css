@@ -5,6 +5,7 @@
 body {
   padding: 50px 100px 50px 100px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  min-height: 100%;
 }
 html body {
   background: url('../images/light-pattern.jpg');
@@ -78,7 +79,7 @@ span.label.label-default, code, .my-code {
  float: right;
  position: relative;
  top: 0;
- margin: 0 !important; 
+ margin: 0 !important;
 }
 .col-xs-12 .col-sm-12 .col-md-12 .col-lg-12 {
   text-align: justify;
@@ -91,12 +92,18 @@ span.label.label-default, code, .my-code {
   padding: 10px;
   border: 1px solid #DDD;
 }*/
-
-/* @partials: header, footer */
+.row {
+  padding: 5px 0 5px 0;
+}
+/* @PARTIALS: header, footer */
+.clearfix {
+  margin-top: 25px;
+}
 footer {
   height: 50px;
   border: 1px solid #45484d;
   padding: 5px;
+  margin-top: 25px;
   position: absolute;
   bottom: 0;
   left: 0;
