@@ -107,24 +107,6 @@ span.label.label-default, code, .my-code {
 .row {
   padding: 5px 0 5px 0;
 }
-/* @PARTIALS: header, footer */
-.clearfix {
-  margin-top: 25px;
-}
-footer {
-  height: 50px;
-  border: 1px solid #45484d;
-  padding: 5px;
-  margin-top: 25px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100% !important;
-  background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%);
-}
-.navbar-inverse {
-  background: -webkit-linear-gradient(top, #000000 0%,#45484d 100%);
-}
 .my-pre {
   padding: 15px;
 }

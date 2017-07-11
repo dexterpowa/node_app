@@ -1,14 +1,4 @@
 "use strict"
-$(document).ready(function(){
-// TOOLTIP
-    $('[data-toggle="tooltip"]').tooltip({
-		title: "Show code",
-		delay: 300,
-		animation: true,
-		placement: "right"
-	});
-});
-
 function accessAllowed() {
 
 let accessAllowed;
