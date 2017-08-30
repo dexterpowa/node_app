@@ -1,0 +1,68 @@
+/* @BODY: background, defaults */
+body {
+  padding: 50px 140px 50px 140px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  min-height: 100%;
+}
+html body {
+  background: url('../../images/light-pattern.jpg');
+  z-index: 0;
+}
+
+/* @CONTENT */
+#my-content {
+  margin: 25px 0 25px 0;
+  border: 1px solid #DDD;
+  min-height: 100%;
+  padding: 25px;
+  z-index: 1;
+  background: #FFF;
+  box-shadow: 0 0 10px #45484d;
+}
+#my-content p {
+  margin: 10px 0 10px 0;
+}
+#size {
+  float: right;
+  position: relative;
+  top: 0;
+  margin: 0 !important;
+}
+.col-xs-12 .col-sm-12 .col-md-12 .col-lg-12 {
+  text-align: justify;
+}
+.row {
+  padding: 5px 0 5px 0;
+}
+.my-pre {
+  padding: 15px;
+}
+
+/* Chapter div */
+.panel-chapter {
+  display: -webkit-box;
+}
+.panel-chapter span.label.label-default, code, .my-code {
+  margin: 0px !important;
+}
+
+/* Labels*/
+.code-custom {
+  padding: 5px 10px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+.my-code {
+  padding: 5px;
+  border: 1px solid #DDD;
+  color: #009f00;
+}
+span.label.label-default {
+  position: relative;
+  top: -1px;
+}
+span.label.label-default, code, .my-code {
+  margin: 0 5px;
+}

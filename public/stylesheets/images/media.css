@@ -1,0 +1,17 @@
+/* @MEDIA: images,links,embed */
+a {
+  color: #00B7FF;
+}
+#my-content .thumbnail + img{
+  width: 275px;
+  height: 125px;
+  float: right;
+}
+#page-logo {
+  float: right;
+  padding: 0;
+}
+#logo-js {
+  height: 35%;
+  width: 35%;
+}

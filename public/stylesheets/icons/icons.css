@@ -1,10 +1,10 @@
-/* TOOLTIP */
+/* ICONS */
 .panel-body .fa-cogs {
-  margin-left: 15px;
   transition: 0.3s;
+  margin-left: 15px;
 }
 .panel-body code {
-  margin: 0 15px 0 0;
+
 }
 .panel-body .fa-cogs:hover {
   transform: scale(1.5);
