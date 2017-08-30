@@ -1,0 +1,29 @@
+/* @MEDIA: images,links,embed,labels */
+a {
+  color: #00B7FF;
+}
+#my-content .thumbnail + img{
+  width: 275px;
+  height: 125px;
+  float: right;
+}
+#page-logo {
+  float: right;
+  padding: 0;
+}
+#logo-js {
+  height: 35%;
+  width: 35%;
+}
+.my-code {
+  padding: 5px;
+  border: 1px solid #DDD;
+  color: #009f00;
+}
+span.label.label-default {
+  position: relative;
+  top: -1px;
+}
+span.label.label-default, code, .my-code {
+  margin: 0 5px;
+}
