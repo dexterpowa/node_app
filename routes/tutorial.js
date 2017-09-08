@@ -11,9 +11,11 @@ router.get('/', function(req, res, next) {
     subtitle1: 'Javascript Fundamentals',
     subtitle2: 'Conditional operators: if, \'?\'',
     subtitle3: 'Logical operators',
+    subtitle4: 'Loops: while and for',
     part1: '2.9',
     part2: '2.10',
-    part3: '2.11'
+    part3: '2.11',
+    part4: '2.12'
  });
 });
 

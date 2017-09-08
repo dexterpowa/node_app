@@ -6,7 +6,7 @@
 <div class="col-md-6">
 	<div class="row">
 		<div class="col-xs-6 col-md-3" id="page-logo">
-			<a href="https://javascript.info/" class="thumbnail">
+			<a href="https://javascript.info/first-steps" class="thumbnail">
 				<img src="../images/logo-js.png" alt="more here..." id="logo-js">
 			</a>
 		</div>
@@ -15,26 +15,33 @@
 <div class="col-md-12">
 	<div class="row">
 		<div class="panel panel-default">
-				<div class="panel-heading">
-					<h3 class="panel-title" id="section-title">{{ text }}</h3>
-				</div>
-				<div class="panel-body" id="panel-content">
-					<div class="col-md-6">
-						<div class="row">
-							<p><code class="my-code">-</code>|<i class="fa fa-cogs" data-toggle="tooltip" aria-hidden="true"></i></p>
-						</div>
-						<div class="row">
-							<p>Using the<span class="label label-default">{{ label }}</span>method.</p>
-							<button type="button" class="btn btn-primary" id="btn-get-size" onclick=resize()>Get size</button>
-							<p id="size"></p>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="row">
-							<pre class="my-pre">my pre goes here</pre>
+			<div class="panel-heading">
+				<h3 class="panel-title" id="section-title">{{ text }}</h3>
+			</div>
+			<div class="panel-body" id="panel-content">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="panel-chapter">
+							<div class="chapter-left">
+								<code class="my-code">{{ part1 }}</code>
+							</div>
+							<div class="chapter-right">
+								<i class="fa fa-cogs" data-toggle="tooltip" aria-hidden="true"></i>
+							</div>
 						</div>
 					</div>
+					<div class="row">
+						<p>Using the<span class="label label-default">{{ label }}</span>method.</p>
+						<button type="button" class="btn btn-primary" id="btn-get-size" onclick=resize()>Get size</button>
+						<p id="size"></p>
+					</div>
 				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<pre class="my-pre">my pre goes here</pre>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
@@ -45,75 +52,125 @@
 				<h3 class="panel-title" id="section-title">{{ subtitle1 }}</h3>
 			</div>
 			<div class="panel-body" id="panel-content">
-				<div class="col-md-2">
-						<div class="row">
-								<div class="panel-chapter">
-										<div class="chapter-left">
-											<code class="my-code">{{ part2 }}</code>
-										</div>
-										<div class="chapter-right">
-											<i class="fa fa-cogs" data-toggle="tooltip" aria-hidden="true"></i>
-										</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="panel-chapter">
+								<div class="chapter-left">
+									<code class="my-code">{{ part2 }}</code>
+								</div>
+								<div class="chapter-right">
+									<i class="fa fa-cogs" data-toggle="tooltip" aria-hidden="true"></i>
 								</div>
 						</div>
-						<div class="row">
-							<button type="button" class="btn btn-primary" onclick="accessAllowed()">alert</button>
-							<button type="button" class="btn btn-primary" onclick="confirmName()">confirm</button>
-						</div>
+					</div>
+					<div class="row">
+						<button type="button" class="btn btn-primary" onclick="accessAllowed()">alert</button>
+						<button type="button" class="btn btn-primary" onclick="confirmName()">confirm</button>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<pre class="my-pre">my pre goes here</pre>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 <div class="col-md-12">
- <div class="row">
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<h3 class="panel-title" id="section-title">{{ subtitle2 }}</h3>
-		</div>
-		<div class="panel-body" id="panel-content">
-			<div class="col-md-6">
-				<div class="row">
-					<div class="panel-chapter">
-						<div class="chapter-left">
-							<code class="my-code">{{ part2 }}</code>
-						</div>
-						<div class="chapter-right">
-							<i class="fa fa-cogs" data-toggle="tooltip" aria-hidden="true"></i>
+	<div class="row">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title" id="section-title">{{ subtitle2 }}</h3>
+			</div>
+			<div class="panel-body" id="panel-content">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="panel-chapter">
+							<div class="chapter-left">
+								<code class="my-code">{{ part2 }}</code>
+							</div>
+							<div class="chapter-right">
+								<i class="fa fa-cogs" data-toggle="tooltip" aria-hidden="true"></i>
+							</div>
 						</div>
 					</div>
+					<div class="row">
+						<button type="button" class="btn btn-primary" onclick="stringWithZero()">if (a string with zero)</button>
+						<button type="button" class="btn btn-primary" onclick="nameOfJS()">The name of JavaScript</button>
+						<button type="button" class="btn btn-primary" onclick="showSign()">Show the sign</button>
+						<button type="button" class="btn btn-primary" onclick="checkLogin()">Check the login</button>
+					</div>
 				</div>
-				<div class="row">
-					<button type="button" class="btn btn-primary" onclick="stringWithZero()">if (a string with zero)</button>
-					<button type="button" class="btn btn-primary" onclick="nameOfJS()">The name of JavaScript</button>
-					<button type="button" class="btn btn-primary" onclick="showSign()">Show the sign</button>
-					<button type="button" class="btn btn-primary" onclick="checkLogin()">Check the login</button>
+				<div class="col-md-6">
+					<div class="row">
+						<pre class="my-pre">my pre goes here</pre>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	</div>
 </div>
 <div class="col-md-12">
- <div class="row">
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<h3 class="panel-title" id="section-title">{{ subtitle3 }}</h3>
-		</div>
-		<div class="panel-body" id="panel-content">
-			<div class="col-md-6">
-				<div class="row">
-					<div class="panel-chapter">
-						<div class="chapter-left">
-							<code class="my-code">{{ part3 }}</code>
+	<div class="row">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title" id="section-title">{{ subtitle3 }}</h3>
+			</div>
+			<div class="panel-body" id="panel-content">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="panel-chapter">
+							<div class="chapter-left">
+								<code class="my-code">{{ part3 }}</code>
+							</div>
+							<div class="chapter-right">
+								<i class="fa fa-cogs" data-toggle="tooltip" aria-hidden="true"></i>
+							</div>
 						</div>
-						<div class="chapter-right">
-							<i class="fa fa-cogs" data-toggle="tooltip" aria-hidden="true"></i>
-						</div>
+					</div>
+					<div class="row">
+						<button type="button" class="btn btn-primary" onclick="checkBetween()">Check range between</button>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<pre class="my-pre">my pre goes here</pre>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
+<div class="col-md-12">
+	<div class="row">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title" id="section-title">{{ subtitle4 }}</h3>
+			</div>
+			<div class="panel-body" id="panel-content">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="panel-chapter">
+							<div class="chapter-left">
+								<code class="my-code">{{ part4 }}</code>
+							</div>
+							<div class="chapter-right">
+								<i class="fa fa-cogs" data-toggle="tooltip" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<button type="button" class="btn btn-primary" onclick="displayEvenNumbers()">For: even numbers</button>
+						<p id="numbers"></p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<pre class="my-pre">my pre goes here</pre>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>

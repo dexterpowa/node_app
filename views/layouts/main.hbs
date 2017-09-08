@@ -1,29 +1,31 @@
 <!doctype html>
 <html>
-		<head>
-				<title>{{ title }}</title>
-				{{!--CSS IMPORTS--}}
-				<link rel="stylesheet" href="stylesheets/layout/layout_default.css"/>
-				<link rel="stylesheet" href="stylesheets/partials/header.css"/>
-				<link rel="stylesheet" href="stylesheets/partials/footer.css"/>
-				<link rel="stylesheet" href="stylesheets/icons/icons.css"/>
-				<link rel="stylesheet" href="stylesheets/images/media.css"/>
-				<link rel="stylesheet" href="stylesheets/font/fonts.css"/>
-				<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<head>
+		<title>{{ title }}</title>
+		{{!--CSS IMPORTS--}}
+		<link rel="stylesheet" href="stylesheets/layout/layout_default.css"/>
+		<link rel="stylesheet" href="stylesheets/partials/header.css"/>
+		<link rel="stylesheet" href="stylesheets/partials/footer.css"/>
+		<link rel="stylesheet" href="stylesheets/icons/icons.css"/>
+		<link rel="stylesheet" href="stylesheets/images/media.css"/>
+		<link rel="stylesheet" href="stylesheets/font/fonts.css"/>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-				{{!--GENERAL JS IMPORTS--}}
-				<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-				<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-				<script src="https://use.fontawesome.com/cad4119b33.js"></script>
+		{{!--GENERAL JS IMPORTS--}}
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/cad4119b33.js"></script>
 
-				{{!--MY JS IMPORTS--}}
-				<script src="javascripts/setText.js"></script>
-				<script src="javascripts/2.10/task10.js"></script>
-				<script src="javascripts/jquery/tooltip.js"></script>
-		</head>
-		<body>
-				{{> header }}
-				<div class="col-md-12" id="my-content">{{{ body }}}</div>
-				{{!--{{> footer }}--}}
-		</body>
+		{{!--MY JS IMPORTS--}}
+		<script src="javascripts/setText.js"></script>
+		<script src="javascripts/2.10/task10.js"></script>
+		<script src="javascripts/2.11/task11.js"></script>
+		<script src="javascripts/2.12/task12.js"></script>
+		<script src="javascripts/jquery/animation.js"></script>
+	</head>
+	<body>
+			{{> header }}
+			<div class="col-md-12" id="my-content">{{{ body }}}</div>
+			{{!--{{> footer }}--}}
+	</body>
 </html>

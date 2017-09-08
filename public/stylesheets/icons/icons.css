@@ -3,10 +3,8 @@
   transition: 0.3s;
   margin-left: 15px;
 }
-.panel-body code {
-
-}
 .panel-body .fa-cogs:hover {
+  cursor: pointer;
   transform: scale(1.5);
   transition: 0.3s;
 }
