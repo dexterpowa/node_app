@@ -20,7 +20,7 @@ html body {
   box-shadow: 0 0 10px #45484d;
 }
 #my-content p {
-  margin: 10px 0 10px 0;
+ margin: 10px 0 10px 0;
 }
 #size {
   float: right;
@@ -37,6 +37,10 @@ html body {
 .my-pre {
   padding: 15px;
   background: #f1ecda;
+}
+.panel-body .result {
+  display: -webkit-inline-box;
+  margin: 0 0 0 10px !important;
 }
 
 /* Chapter div */
